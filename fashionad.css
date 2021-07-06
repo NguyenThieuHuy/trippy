@@ -1,0 +1,132 @@
+table, th{
+  border:1px solid black;
+  border-collapse:collapse;
+  padding:20px;
+  background:
+
+}
+
+
+img{
+  width:100%;
+  height:150px;
+
+}
+
+
+* {
+  background: #ebebeb;
+}
+
+body {
+  margin: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+header {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+header .left {
+  display: flex;
+}
+header .left .brand {
+  font-size: 35px;
+  margin-bottom: 6px;
+}
+header .left nav {
+  list-style: none;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+header .left nav li {
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+header .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .right form {
+  display: flex;
+}
+header .right form input {
+  width: 200px;
+  padding: 5px;
+  background: #ccc;
+  border: 2px solid #ccc;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 5px;
+}
+header .right form button {
+  background: none;
+  background: #ccc;
+  margin-right: 20px;
+}
+header .right form button:hover {
+  background: #ddd;
+}
+header .right form button i {
+  background: #ccc;
+  padding: 0;
+  margin: 0;
+}
+header .right form button i:hover {
+  background: #ddd;
+}
+header .right i {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.mainContent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.mainContent .mainLeft {
+  width: 800px;
+  height: 80vh;
+  flex-grow: 2;
+}
+.mainContent .mainLeft .backImg {
+  width: 800px;
+  height: 80vh;
+}
+.mainContent .mainRight {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  flex-grow: 1;
+}
+.mainContent .mainRight h2 {
+  margin: 10px 20px;
+}
+.mainContent .mainRight hr {
+  height: 1px;
+  width: 190px;
+  background: #ccc;
+}
+.mainContent .mainRight .shop {
+  flex-grow: 1;
+  width: 400px;
+}
+.mainContent .mainRight .shop .key {
+  width: 100%;
+  margin: 5px;
+  height: 150px;
+}
+table, th{
+  border:1px solid black;
+  border-collapse:collapse;
+  padding:20px;
+  background:
+
+}

@@ -1,0 +1,253 @@
+html{
+ scroll-behavior: smooth;
+}
+body {
+ background-image: url(Pictures/tour1bg.jpg);
+ background-size: cover;
+ scroll-behavior: smooth;
+ margin: 0;
+ padding: 0;
+}
+.navbar {
+ background-color:white;
+ opacity: 1.0;
+ border-bottom: 1px solid rgba(255,255,255,0.2);
+ width: 100%;
+ height: 90px;
+ line-height: 80px;
+ font-size: 18px;
+ padding: 0 30px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 10;
+ padding: 0;
+}
+
+.logo{
+   margin: 0 auto;
+   overflow: auto;
+   float: left;
+   max-height: 90px;
+ }
+
+ h1 {
+   color: black;
+   float: left;
+   margin-top: 0;
+   margin-left: 21px;
+   font-size: 16px;
+ }
+
+ #navbar1 {
+     margin-top: 150px;
+
+     opacity: 0.8;
+     list-style-type: none; /* remove bullet points */
+     margin-left: 30px;
+     padding: 0;
+     font-size: 20pt;
+     width: 609px;
+ }
+ #navbar1 li {
+     display: inline; /* make items horizontal */
+ }
+ #navbar1 li a:link, #navbar1 li a:visited, #navbar1 li a:active {
+   text-decoration: none; /* remove underline */
+   color: #000000;
+   padding: 0 16px 0 10px; /* space links apart */
+   margin: 0;
+   border-right: 2px solid #B4B4B4; /* divider */
+ }
+ #navbar1 li a:link.last-link {
+   /* remove divider */
+   border-right: 0px;
+ }
+ #navbar1 li a:hover {
+   /* change color on hover (mouseover) */
+   color: rgba(235, 86, 0, 1);
+ }
+
+
+ #main{
+     scroll-behavior: smooth;
+     width: 80%;
+     padding: 0;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     height: 700px;
+ }
+
+ .normal-wrapper {
+   width: 90%;
+   margin: 0 auto;
+   padding: 15px 40px;
+   overflow: auto;
+ }
+
+ #Information, #PhotoAlbum, #BookingInquiries{
+   width: 100%;
+   min-height: 600px;
+   float:right;
+   padding-left: 5px;
+   padding-top: 5px;
+   padding-right: 5px;
+   background-color: white;
+ }
+
+ .mainpic {
+     position: absolute;
+     width: 30%;
+ }
+ .mainpic img{
+   height: 380px;
+   float: right;
+ }
+ .info {
+     text-align: center;
+     width: 70%;
+     position: absolute;
+     right: 0;
+ }
+
+
+ .title p {
+     font-size: 25px;
+     color: #4d4d4d;
+     font-weight: 400;
+ }
+ .onder_title {
+     color: blue;
+     font-size: 20px;
+     border-bottom: 1px solid #d4d4d4;
+ }
+ .long {
+     font-size: 20px;
+ }
+
+ #album-view img{
+   cursor: pointer;
+   border: 1px solid slategray;
+   margin: 5px;
+   padding: 5px;
+   height: 150px;
+   width: 150px;
+ }
+ #modal-view{
+   position: absolute;
+   margin-top: 600px;
+   top: 0;
+   left: 0;
+   height:600px ;
+   width: 100%;
+   background-color: rgba(0,0,0,0.9);
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ #modal-view img{
+   max-height: 90%;
+   max-width: 90%;
+ }
+ #modal-view.hidden{
+   display: none;
+ }
+
+ #gmail img{
+   height: 350px;
+   max-width: 35%;
+   cursor: pointer;
+   right: 40px;
+   position: absolute;
+   margin: 10px;
+ }
+ #instruction{
+   padding: 30px;
+   width: 50%;
+   position: absolute;
+ }
+ #instruction p, #instruction li{
+   font-size: 19px;
+ }
+
+ #quote-area {
+   background: rgba(176, 176, 176, 1);
+   color: black;
+   text-align: center;
+   padding: 15px 0;
+ }
+h3 {
+    text-align: center;
+      font-size: 30px;
+      color: #4d4d4d;
+      font-weight: 600;
+}
+ .icon-outer {
+   box-sizing: border-box; /* ensure padding and borders do not increase the size */
+   float: left;
+   width: 33.33%;
+   padding: 25px;
+   margin: 0;
+   text-align: center;
+ }
+
+ .icon-outer p{
+   color: white;
+ }
+
+ .icon-circle {
+   background:rgba(34, 119, 115, 0.44);
+   color: #B4B4B4;
+   width: 200px;
+   height: 200px;
+   border-radius: 200px; /* make rounded corners */
+   margin: 0 auto;
+   border: 2px solid #D6D6D6;
+   box-sizing: border-box; /* ensure padding and borders do not increase the size */
+   font-size: 75pt;
+   padding: 30px 0 0 0;
+   cursor: pointer;
+
+ }
+ .icon-circle img{
+   max-height: 140px;
+   max-width: 140px;
+ }
+ .icon-circle:hover {
+   /* change color on hover (mouseover) */
+   color: #FFFFFF;
+   background: rgba(235, 86, 0, 1);
+ }
+ h5 {
+   color: white;
+   margin: 15px 0 10px 0;
+   font-size: 20pt;
+ }
+
+
+ #footer{
+   background: black;
+   color: black;
+   height: auto;
+   clear: both;
+   opacity: 0.8;
+ }
+ #footer p{
+   color: white;
+ }
+ #footer p.leftFooter {
+   padding-left: 50px;
+   text-align: left;
+   width: 50%;
+ }
+
+ #footer p.rightFooter {
+   width: 50%;
+   padding-right: 10px;
+   text-align: right;
+   position: absolute;
+   right: 10px;
+ }
+/*_______________________________________________________________________*/
